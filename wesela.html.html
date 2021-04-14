@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8" />
+
+    <link rel="stylesheet" type="text/css" href="styl5.css" />
+    <title>Dom Weselny</title>
+</head>
+
+<body class="flex">
+    <header>
+        <h1>
+            <img src="logo.png" height="70px"> Dom Weselny zoragnizuje wesele za Ciebie
+            <img src="logo.png" height="70px">
+        </h1>
+    </header>
+    <div id="lewy">
+        <h2>Dom Weselny</h2>
+        <p>ul. Przemysłowa 5</p>
+        <p>Kalisz</p>
+        <p>
+            <a href="logo.png">Pobierz logo</a>
+        </p>
+    </div>
+    <div id="srodkowy">
+        <h2>Oferujemy</h2>
+        <ul>
+            <li>Wesela</li>
+            <li>Bankiety</li>
+            <li>Konferencje</li>
+        </ul>
+    </div>
+    <div id="prawy">
+        <p><a href="Regulamin.txt">czytaj regulamin</a></p>
+    </div>
+    <div id="dolny">
+        <h2>Ile będzie kosztowało moje wesele?</h2>
+        Podaj liczbę gości: <input type="number" id="ile">
+        <br>
+        <input type="checkbox" id="poprawiny">Wesele z poprawinami?<br>
+        <button onclick="oblicz()">Oblicz koszt</button>
+        <p id="wynik"></p>
+    </div>
+
+    <footer>Stronę internetową opracował: <i>99999999999</i></footer>
+    <script type="text/javascript" src="script.js"></script>
+
+</body>
+
+</html>
